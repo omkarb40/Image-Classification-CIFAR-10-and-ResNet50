@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Treating image files as binary
+*.jpg binary
+*.png binary
+*.gif binary
+
+# Treating Jupyter Notebook files as binary
+*.ipynb binary
+
+# Set text attribute for Python files
+*.py text
+
